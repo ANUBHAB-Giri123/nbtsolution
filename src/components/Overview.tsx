@@ -1,7 +1,8 @@
 import { useState } from "react";
 import ball from "../assets/ball.png";
 
-const Card = ({ dark }) => {
+// const Card = ({ dark }) => {
+const Card = ({ dark }: { dark: boolean }) => {
   return (
     <div
       className={`relative w-[280px] h-[320px] rounded-[30px] p-6 ${
